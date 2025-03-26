@@ -3,7 +3,7 @@
 variable "name" {
   type        = string
   default     = ""
-  description = "Name  (e.g. `app` or `cluster`)."
+  description = "EitamDemo"
 }
 
 variable "repository" {
@@ -21,13 +21,13 @@ variable "repository" {
 variable "environment" {
   type        = string
   default     = ""
-  description = "Environment (e.g. `prod`, `dev`, `staging`)."
+  description = "Dev"
 }
 
 variable "label_order" {
   type        = list(any)
   default     = ["name", "environment"]
-  description = "Label order, e.g. `name`,`application`."
+  description = "EitamDemo"
 }
 
 variable "delimiter" {
@@ -39,7 +39,7 @@ variable "delimiter" {
 variable "tags" {
   type        = map(any)
   default     = {}
-  description = "Additional tags (e.g. map(`BusinessUnit`,`XYZ`)."
+  description = "Mar262025"
 }
 
 variable "managedby" {
